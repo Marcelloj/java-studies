@@ -2,7 +2,7 @@ package ExercicioCalcula;
 
 public class CalculadoraCompra {
 
-    public static double taxaServico = 0.08;
+    public static final double taxaServico = 0.08;
 
     public static double calcularSubTotal(double preco, int quantidade) {
         return preco * quantidade;
